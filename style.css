@@ -1,0 +1,57 @@
+p {
+    background-color: maroon;
+    color: white;
+    font-size: larger;
+    margin: 1cm;
+    border: solid thick black;
+    padding: 2cm 2cm 2cm 2cm;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 4opx;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: burlywood;
+}
+
+.important {
+    background-color: brown;
+    color: white;
+}
+
+#p3 {
+    background-color: rgb(197, 168, 172);
+    color: black;
+}
+
+p[align='center'] {
+    padding-left: 10cm;
+}
+
+input[type="button"] {
+    width: 3cm;
+    height: 1cm;
+    background-color: maroon;
+    color: white;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Pictures/beautiful-autumn-background-flying-falling-colorful-leaves-bokeh-frame-beautiful-autumn-background-flying-falling-99139534.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+h3{
+    color: brown;
+}
